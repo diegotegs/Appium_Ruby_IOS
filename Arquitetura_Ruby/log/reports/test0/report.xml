@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?><test_report>
+<info>
+<test_info>
+<test_status>OK</test_status>
+<time_zone>Brasilia Time</time_zone>
+<run_started>Thu, 27 Jun 2019 09:41:07</run_started>
+<total_time>00:00:23.906</total_time>
+<project/>
+<user>diego</user>
+<machine_name>base2s-mac-mini.local</machine_name>
+</test_info>
+<device_info>
+<device_name>iPad Base2</device_name>
+<manufacture>Apple</manufacture>
+<model>iPad mini 2</model>
+<os>iOS</os>
+<serial_number>ece1b58afc3dad833d0ee245cbd5cf31138a5ce6</serial_number>
+<version>12.3.1</version>
+<versionMajor>12.x</versionMajor>
+<screen_size>1536x2048</screen_size>
+</device_info>
+</info>
+<reports>
+<report>
+<line>Start steps group 'New Session [ios]'</line>
+<status>true</status>
+</report>
+<report>
+<text>12.31</text>
+<line>Get device property: device.version</line>
+<status>true</status>
+</report>
+<report>
+<imageFile>0.PNG</imageFile>
+<text>{device.majorVersion=12, dontGoHomeOnQuit=false, device.os=iOS, noReset=false, dontStopAppOnReset=false, reservationDuration=240, reportFormat=html, fullReset=false, deviceUDID=ece1b58afc3dad833d0ee245cbd5cf31138a5ce6, install.only.for.update=false, desired={bundleId=br.com.intermedium, reportDirectory=/Users/diego/Desktop/Arquitetura_Ruby/log/reports, reportFormat=html, udid=ece1b58afc3dad833d0ee245cbd5cf31138a5ce6, platformName=ios, testName=Untitled}, device.serialNumber=ece1b58afc3dad833d0ee245cbd5cf31138a5ce6, locationServicesAuthorized=false, device.version=12.3.1, automationName=XCUITest, reportDirectory=/Users/diego/Desktop/Arquitetura_Ruby/log/reports, autoWebview=false, udid=ece1b58afc3dad833d0ee245cbd5cf31138a5ce6, platformName=ios, testName=Untitled, device.screenSize=1536x2048, useKeystore=false, test.type=Mobile, device.manufacture=Apple, instrumentApp=false, appiumVersion=1.8.0, bundleId=br.com.intermedium, autoDismissAlerts=false, reportUrl=/Users/diego/Desktop/Arquitetura_Ruby/log/reports/test0, newSessionWaitTimeout=300, keystorePath=~/.android/debug.keystore, waitForDeviceTimeout=120000, device.model=iPad mini 2, device.name=iPad Base2, autoGrantPermissions=false, takeScreenshots=true, projectName=, autoAcceptAlerts=false}</text>
+<line>Init Actual Capabilities</line>
+<status>true</status>
+</report>
+<report>
+<imageFile>1.PNG</imageFile>
+<text>XCUITest</text>
+<line>Init Automation [XCUITest]</line>
+<status>true</status>
+</report>
+<report>
+<imageFile>2.PNG</imageFile>
+<text>NATIVE_APP</text>
+<line>Init Context [NATIVE_APP]</line>
+<status>true</status>
+</report>
+<report>
+<imageFile>3.PNG</imageFile>
+<line>Set property ios.close.keyboard.should.be.forced to: true</line>
+<status>true</status>
+</report>
+<report>
+<text>TABLET</text>
+<line>Get device property: device.category</line>
+<status>true</status>
+</report>
+<report>
+<imageFile>4.PNG</imageFile>
+<line>Set property ios.native.nonInstrumented to: true</line>
+<status>true</status>
+</report>
+<report>
+<text>Writing device log to /private/var/folders/0f/c_kdt54d21d1ltnx78r8wrm80000gr/T/AppiumStudio/deviceLogs_15616392698363989215529061014276.log</text>
+<line>Start writing device log for iPad Base2</line>
+<status>true</status>
+</report>
+<report>
+<imageFile>5.PNG</imageFile>
+<line>Launch native activity / URL br.com.intermedium</line>
+<status>true</status>
+</report>
+<report>
+<line>Stop steps group</line>
+<status>true</status>
+</report>
+<report>
+<imageFile>6.PNG</imageFile>
+<line>Set Timeout Implicit [0.0]</line>
+<status>true</status>
+</report>
+<report>
+<imageFile>7.PNG</imageFile>
+<text>{ELEMENT=39}</text>
+<line>Find Element [xpath,//*[@text='ABRIR CONTA']]</line>
+<status>true</status>
+</report>
+<report>
+<imageFile>8.PNG</imageFile>
+<line>Click [(//*[@text='ABRIR CONTA'])[1]]</line>
+<status>true</status>
+</report>
+<report>
+<imageFile>9.PNG</imageFile>
+<text>{ELEMENT=40}</text>
+<line>Find Element [xpath,//*[@class='UIATextField']]</line>
+<status>true</status>
+</report>
+<report>
+<imageFile>10.PNG</imageFile>
+<line>Send Keys [(//*[@class='UIATextField'])[1]]</line>
+<status>true</status>
+</report>
+<report>
+<imageFile>11.PNG</imageFile>
+<text>{ELEMENT=41}</text>
+<line>Find Element [xpath,//*[@text='Toolbar Done Button']]</line>
+<status>true</status>
+</report>
+<report>
+<imageFile>12.PNG</imageFile>
+<line>Click [(//*[@text='Toolbar Done Button'])[1]]</line>
+<status>true</status>
+</report>
+<report>
+<imageFile>13.PNG</imageFile>
+<text>{ELEMENT=42}</text>
+<line>Find Element [xpath,//*[@text='nextBt']]</line>
+<status>true</status>
+</report>
+<report>
+<imageFile>14.PNG</imageFile>
+<line>Click [(//*[@text='nextBt'])[1]]</line>
+<status>true</status>
+</report>
+<report>
+<imageFile>15.PNG</imageFile>
+<text>{ELEMENT=43}</text>
+<line>Find Element [xpath,//*[@text='CPF inv&amp;aacute;lido, tente novamente']]</line>
+<status>true</status>
+</report>
+<report>
+<imageFile>16.PNG</imageFile>
+<text>CPF inv&amp;aacute;lido, tente novamente</text>
+<line>Get Text [(//*[@text='CPF inv&amp;aacute;lido, tente novamente'])[1]]</line>
+<status>true</status>
+</report>
+<report>
+<imageFile>17.PNG</imageFile>
+<line>Quit</line>
+<status>true</status>
+</report>
+</reports>
+</test_report>
